@@ -6,28 +6,28 @@
 изменение статуса, если статус изменился, отправляется уведомление в telegram.
 
 ### Подготовка проекта к запуску под Linux
-* Клонируем репозиторий на пк
-```
-  git clone git@github.com:PetrovKRS/Blog-Social_network.git
-```
-* переходим в рабочую папку склонированного проекта
-* разворачиваем виртуальное окружение
-```
-  python3 -m venv venv
-```
-```
-  source venv/bin/activate
-```
-* устанавливаем зависимости из файла requirements.txt
-```
-  pip install --upgrade pip
-```
-```
-  pip install -r requirements.txt
-```
-* запускаем бота
-  ```
-  python3 homework.py
-  ```
+  * Клонируем репозиторий на пк
+    ```
+    git clone git@github.com:PetrovKRS/Blog-Social_network.git
+    ```
+  * переходим в рабочую папку склонированного проекта
+  * разворачиваем виртуальное окружение
+    ```
+    python3 -m venv venv
+    ```
+    ```
+    source venv/bin/activate
+    ```
+  * устанавливаем зависимости из файла requirements.txt
+    ```
+    pip install --upgrade pip
+    ```
+    ```
+    pip install -r requirements.txt
+    ```
+  * запускаем бота
+    ```
+    python3 homework.py
+    ```
 
-Стек технологий: |*| python-telegram-bot==13.7 |*| python-dotenv==0.19.0 |*| flake8 |*|
+Стек технологий: |*| python-telegram-bot 13.7 |*| python-dotenv 0.19.0 |*| flake8 |*|
