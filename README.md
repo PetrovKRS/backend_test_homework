@@ -8,7 +8,7 @@
 ### Подготовка проекта к запуску под Linux
   * Клонируем репозиторий на пк
     ```
-    git clone git@github.com:PetrovKRS/Blog-Social_network.git
+    git clone git@github.com:PetrovKRS/telegram_bot_homework.git
     ```
   * переходим в рабочую папку склонированного проекта
   * разворачиваем виртуальное окружение
