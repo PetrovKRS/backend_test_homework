@@ -14,12 +14,15 @@
 * разворачиваем виртуальное окружение
 ```
   python3 -m venv venv
+```
+```
   source venv/bin/activate
 ```
 * устанавливаем зависимости из файла requirements.txt
 ```
   pip install --upgrade pip
-
+```
+```
   pip install -r requirements.txt
 ```
 *
