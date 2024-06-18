@@ -30,4 +30,4 @@
   python3 homework.py
   ```
 
-Стек технологий: |*| python-telegram-bot==13.7 |*| python-dotenv==0.19.0 |*| flake8 |*|
+Стек технологий: | python-telegram-bot==13.7 | python-dotenv==0.19.0 | flake8 |
