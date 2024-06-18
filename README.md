@@ -5,4 +5,24 @@
 Производится опрос API сервиса учебного заведения с заданным интервалом времени, затем проверяется 
 изменение статуса, если статус изменился, отправляется уведомление в telegram.
 
+### Подготовка проекта к запуску под Linux
+* Клонируем репозиторий на пк
+```
+  git clone git@github.com:PetrovKRS/Blog-Social_network.git
+```
+* переходим в рабочую папку склонированного проекта
+* разворачиваем виртуальное окружение
+```
+  python3 -m venv venv
+  source venv/bin/activate
+```
+* устанавливаем зависимости из файла requirements.txt
+```
+  pip install --upgrade pip
+
+  pip install -r requirements.txt
+```
+*
+*
+
 Стек технологий: |*| python-telegram-bot==13.7 |*| python-dotenv==0.19.0 |*| flake8 |*|
